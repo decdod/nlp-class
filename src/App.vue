@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/todo">Todo</router-link> |
+    <router-link to="/nlp">NLP</router-link> |
+    <router-link to="/nlp-code">NLP-Code</router-link>
+  </div>
+  <router-view />
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
   }
 }
 </script>
@@ -23,4 +27,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
+
