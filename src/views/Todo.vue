@@ -35,7 +35,7 @@
     </div>
 	<h4 v-if="todos.length === 0">Empty list.</h4>
     <h3> (click tasks to edit, enter to save) </h3>
-    <a href="https://github.com/decdod/nlp-class/blob/gh-pages/src/views/Todo.vue">Todo.vue</a>
+    <a href="https://github.com/decdod/nlp-class/blob/dev/src/views/Todo.vue">Todo.vue</a>
 </template>
 
 <script>
