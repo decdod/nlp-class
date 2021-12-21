@@ -1,4 +1,5 @@
 <template>
+    <br>
 	<h1>NLP Vue Assignment 1</h1>
     <h2>To-dos</h2>
     <br>
@@ -34,6 +35,7 @@
     </div>
 	<h4 v-if="todos.length === 0">Empty list.</h4>
     <h3> (click tasks to edit, enter to save) </h3>
+    <a href="https://github.com/decdod/nlp-class/blob/gh-pages/src/views/Todo.vue">Todo.vue</a>
 </template>
 
 <script>
