@@ -34,7 +34,6 @@
     </div>
 	<h4 v-if="todos.length === 0">Empty list.</h4>
     <h3> (click tasks to edit, enter to save) </h3>
-
 </template>
 
 <script>
