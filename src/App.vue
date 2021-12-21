@@ -1,9 +1,9 @@
 <template>
   <div>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/todo">Todo</router-link> |
-    <router-link to="/nlp">NLP</router-link> |
-    <router-link to="/nlp-code">NLP-Code</router-link>
+    <router-link to="/nlp-class">Home</router-link> |
+    <router-link to="/nlp-class/todo">Todo</router-link> |
+    <router-link to="/nlp-class/nlp">NLP</router-link> |
+    <router-link to="/nlp-class/nlp-code">NLP-Code</router-link>
   </div>
   <router-view />
 
