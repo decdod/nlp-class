@@ -3,7 +3,8 @@
     <router-link to="/nlp-class">Home</router-link> |
     <router-link to="/nlp-class/todo">Todo</router-link> |
     <router-link to="/nlp-class/nlp">NLP</router-link> |
-    <router-link to="/nlp-class/nlp-code">NLP-Code</router-link>
+    <router-link to="/nlp-class/nlp-code">NLP-Code</router-link> |
+    <router-link to="/nlp-class/highlighting">Highlighting</router-link>
   </div>
   <router-view />
 
