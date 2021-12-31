@@ -9,6 +9,6 @@ set -e
 # echo 'www.example.com' > CNAME
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'added Highlighting page'
 git push -f git@github.com:decdod/nlp-class.git master:dev
 cd -
